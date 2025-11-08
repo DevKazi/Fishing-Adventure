@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Louisiana Gulf Coast Fishing Charters</title>
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: rgba(255, 255, 255, 0.95);
+    }
+
+    .navbar-brand img {
+      height: 40px;
+    }
+
+    .nav-link {
+      color: #333 !important;
+      font-weight: 500;
+      margin-right: 1rem;
+    }
+
+    .nav-link:hover {
+      color: #007bff !important;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                  url('https://i.ytimg.com/vi/JbGz8g0X9Jo/maxresdefault.jpg') center center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 0 5%;
+    }
+
+    .hero-content {
+      max-width: 600px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    .hero h1 span {
+      color: #ff6b00;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      margin-top: 1rem;
+      line-height: 1.6;
+    }
+
+    .hero .btn {
+      margin-top: 1.5rem;
+      margin-right: 1rem;
+      border-radius: 50px;
+      padding: 10px 25px;
+    }
+
+    .btn-orange {
+      background-color: #ff6b00;
+      color: #fff;
+      border: none;
+    }
+
+    .btn-orange:hover {
+      background-color: #e65b00;
+    }
+
+    .info-badge {
+      display: inline-block;
+      background-color: rgba(255,255,255,0.2);
+      border-radius: 20px;
+      padding: 6px 15px;
+      font-size: 0.9rem;
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        text-align: center;
+        justify-content: center;
+      }
+
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+
+      .hero-content {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="https://i.ibb.co.com/kYf0xZ1/Screenshot-2025-11-05-002534.png" alt="Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Target Species</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Trip Info</a></li>
+        </ul>
+        <a href="#" class="btn btn-warning ms-3 rounded-pill fw-semibold">
+          <i class="bi bi-telephone"></i> Book Now
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="info-badge">📍 Grand Isle & Fourchon, Louisiana</div>
+      <h1>Louisiana Gulf Coast <span>Fishing Charters</span></h1>
+      <p>
+        World-class offshore fishing targeting Red Snapper, Cobia, Grouper,
+        and trophy pelagics in the Gulf of Mexico’s most productive waters.
+      </p>
+
+      <div class="d-flex flex-wrap">
+        <button class="btn btn-outline-light">Year-Round Fishing</button>
+        <button class="btn btn-outline-light">Full-Day Trips</button>
+      </div>
+
+      <div>
+        <button class="btn btn-orange mt-3">Book Your Charter</button>
+        <button class="btn btn-outline-light mt-3">View Species</button>
+      </div>
+    </div>
+  </section>
+
+<!-- Target Species Section -->
+<section class="target-species py-5 bg-light text-dark">
+  <div class="container text-center mb-5">
+    <h2 class="fw-bold mb-3">Target Species</h2>
+    <p class="text-muted">
+      Louisiana’s Gulf Coast offers some of the most diverse and productive offshore fishing
+      in North America. Our waters are home to trophy gamefish year-round.
+    </p>
+  </div>
+
+  <div class="container">
+    <div class="row g-4">
+      <!-- Red Snapper -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStJ8EOQaDxd6C7tWPRyRJNkJktP42aQIXVJvoFgYK82tL-uKvCr_m2oAQe79DflVSTZn8&usqp=CAU" class="card-img-top" alt="Red Snapper">
+          <div class="card-body text-start">
+            <h5 class="card-title fw-bold">Red Snapper</h5>
+            <p class="card-text text-muted">
+              Prized for their fighting spirit and delicious taste. Found around oil
+              platforms and natural reefs, Red Snapper are the crown jewel of Gulf fishing.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cobia -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzz5MRpzdvz78NIxGQ_Re_iDSf2lJEO4FK3tzp3rLJQ3gqcvrfrqMpCM7eQeatqZU_26Q&usqp=CAU0" class="card-img-top" alt="Cobia">
+          <div class="card-body text-start">
+            <h5 class="card-title fw-bold">Cobia</h5>
+            <p class="card-text text-muted">
+              Hard-fighting pelagic species that provide excellent sport. These powerful fish
+              migrate through Louisiana waters offering exciting action.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Grouper -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ1GhXQOK1pKjak-ULgZDSmq6y6_WH-Lq_c_YkL1E8FyCzn9qS5vqPB6GSbsYiTzlupsk&usqp=CAU" class="card-img-top" alt="Grouper">
+          <div class="card-body text-start">
+            <h5 class="card-title fw-bold">Grouper</h5>
+            <p class="card-text text-muted">
+              Bottom-dwelling giants that test your strength. Multiple species including Gag,
+              Red, and Scamp inhabit our productive Gulf waters.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pelagics -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-roJuQ3kx1odO1BkDJPpXP799Lzh88ND6vq9hVa65ZO3gL4i8xQL0ysaAcLKOF9382Iw&usqp=CAU" class="card-img-top" alt="Pelagics">
+          <div class="card-body text-start">
+            <h5 class="card-title fw-bold">Pelagics</h5>
+            <p class="card-text text-muted">
+              High-speed predators including Wahoo, King Mackerel, and Tuna. These species
+              offer heart-pounding action in offshore waters.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Info Box -->
+    <div class="info-box mt-5 p-4 rounded-3 shadow-sm bg-white text-start">
+      <h5 class="fw-bold mb-3">Why Louisiana Waters Are Special</h5>
+      <ul class="text-muted">
+        <li><strong>Oil Platforms</strong> – Hundreds of vertical reef systems loaded with baitfish and predators</li>
+        <li><strong>Pipeline Crossings</strong> – Underwater intersections that break current and concentrate fish</li>
+        <li><strong>Artificial Reefs</strong> – Old ships, barges, and rigs transformed into fish magnets</li>
+        <li><strong>Natural Bottoms</strong> – Lows, peaks, shell pads, and ledges scattered across the Gulf floor</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Our Mission Section -->
+<section class="our-mission py-5 text-dark">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-2">Our Mission</h2>
+    <p class="text-muted mb-4">Building lifelong anglers, one trip at a time</p>
+
+    <p class="text-muted mx-auto mb-5" style="max-width: 800px;">
+      Our mission is to help people fall in love with fishing the way we did — not just the catch,
+      but the process, the challenge, and the connection to the water. We’re here to build real anglers
+      who carry that passion forward to the next generation.
+    </p>
+
+    <div class="row g-4">
+      <!-- Passion -->
+      <div class="col-md-4">
+        <div class="mission-card h-100 p-4 shadow-sm rounded-3">
+          <div class="icon mb-3 text-primary">
+            <i class="bi bi-heart fs-1"></i>
+          </div>
+          <h5 class="fw-bold">Passion</h5>
+          <p class="text-muted mb-0">
+            We live and breathe fishing. Every trip is an opportunity to share our love for the sport.
+          </p>
+        </div>
+      </div>
+
+      <!-- Experience -->
+      <div class="col-md-4">
+        <div class="mission-card h-100 p-4 shadow-sm rounded-3">
+          <div class="icon mb-3 text-warning">
+            <i class="bi bi-compass fs-1"></i>
+          </div>
+          <h5 class="fw-bold">Experience</h5>
+          <p class="text-muted mb-0">
+            Years of fishing Louisiana’s Gulf waters means we know where the fish are, year-round.
+          </p>
+        </div>
+      </div>
+
+      <!-- Legacy -->
+      <div class="col-md-4">
+        <div class="mission-card h-100 p-4 shadow-sm rounded-3">
+          <div class="icon mb-3 text-orange">
+            <i class="bi bi-people fs-1" style="color:#ff6b00;"></i>
+          </div>
+          <h5 class="fw-bold">Legacy</h5>
+          <p class="text-muted mb-0">
+            One fish, one fight, one trip is all it takes to start a new legacy for your family.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gulf Coast Adventure</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="contact-section text-center py-5">
+    <div class="container">
+      <h2 class="fw-bold mb-3 text-white">Ready to Start Your Gulf Coast Adventure?</h2>
+      <p class="text-light mb-5">
+        Book your offshore fishing charter today and experience world-class fishing in Louisiana's Gulf waters.<br>
+        Limited availability — secure your spot now!
+      </p>
+
+      <div class="row justify-content-center mb-4 g-3">
+        <!-- Call Us -->
+        <div class="col-md-4 col-sm-12">
+          <div class="info-box p-4 h-100">
+            <i class="bi bi-telephone-fill icon"></i>
+            <h5 class="fw-bold">Call Us</h5>
+            <p>Speak directly with our captain</p>
+            <a href="tel:+15551234567" class="text-decoration-none fw-semibold">(555) 123-4567</a>
+          </div>
+        </div>
+
+        <!-- Email Us -->
+        <div class="col-md-4 col-sm-12">
+          <div class="info-box p-4 h-100">
+            <i class="bi bi-envelope-fill icon"></i>
+            <h5 class="fw-bold">Email Us</h5>
+            <p>Get trip details and pricing</p>
+            <a href="mailto:info@gccharters.com" class="text-decoration-none fw-semibold">info@gccharters.com</a>
+          </div>
+        </div>
+
+        <!-- Check Availability -->
+        <div class="col-md-4 col-sm-12">
+          <div class="info-box p-4 h-100">
+            <i class="bi bi-calendar-check-fill icon"></i>
+            <h5 class="fw-bold">Check Availability</h5>
+            <p>View our calendar and book online</p>
+            <a href="#" class="text-decoration-none fw-semibold">View Calendar</a>
+          </div>
+        </div>
+      </div>
+
+      <button class="btn btn-orange px-4 py-2 fw-bold">Request a Quote</button>
+    </div>
+  </section>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Footer Section</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ====== FOOTER SECTION ====== -->
+  <footer class="footer text-light py-5">
+    <div class="container">
+      <div class="row gy-4">
+        <!-- Company Info -->
+        <div class="col-lg-3 col-md-6">
+          <h6 class="fw-bold text-orange mb-3">American Gulf Fishing Charters</h6>
+          <p class="small mb-0">
+            Premier offshore fishing charters out of Grand Isle and Fourchon, Louisiana.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-lg-3 col-md-6">
+          <h6 class="fw-bold mb-3">Quick Links</h6>
+          <ul class="list-unstyled footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Target Species</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-lg-3 col-md-6">
+          <h6 class="fw-bold mb-3">Contact</h6>
+          <ul class="list-unstyled footer-contact">
+            <li><i class="bi bi-geo-alt-fill me-2 text-orange"></i>Grand Isle & Fourchon, Louisiana</li>
+            <li><i class="bi bi-telephone-fill me-2 text-orange"></i>(555) 123-4567</li>
+            <li><i class="bi bi-envelope-fill me-2 text-orange"></i>info@gfcharters.com</li>
+          </ul>
+        </div>
+
+        <!-- Social Media -->
+        <div class="col-lg-3 col-md-6">
+          <h6 class="fw-bold mb-3">Follow Us</h6>
+          <div class="d-flex gap-3">
+            <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <hr class="border-light mt-5">
+      <div class="text-center small">
+        © 2025 American Gulf Fishing Charters. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

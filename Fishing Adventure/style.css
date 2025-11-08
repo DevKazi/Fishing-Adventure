@@ -1,0 +1,313 @@
+/* ==========================
+   GLOBAL STYLES
+========================== */
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-color: #000;
+}
+
+/* ==========================
+   NAVBAR
+========================== */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.nav-link {
+  color: #333 !important;
+  font-weight: 500;
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff !important;
+}
+
+/* ==========================
+   HERO SECTION
+========================== */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+              url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80')
+              center center/cover no-repeat;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 5%;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.hero h1 span {
+  color: #ff6b00;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+/* ==========================
+   BUTTONS
+========================== */
+.hero .btn {
+  margin-top: 1.5rem;
+  margin-right: 1rem;
+  border-radius: 50px;
+  padding: 10px 25px;
+}
+
+.btn-orange {
+  background-color: #ff6b00;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-orange:hover {
+  background-color: #e65b00;
+}
+
+/* Transparent button outline style */
+.btn-outline-light {
+  border: 1px solid #fff;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* ==========================
+   INFO BADGE
+========================== */
+.info-badge {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 6px 15px;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+/* ==========================
+   RESPONSIVE DESIGN
+========================== */
+@media (max-width: 992px) {
+  .navbar-brand img {
+    height: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    text-align: center;
+    justify-content: center;
+    padding: 0 2rem;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-content {
+    max-width: 90%;
+  }
+
+  .hero .btn {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+/* ==========================
+   TARGET SPECIES SECTION
+========================== */
+.target-species {
+  background-color: #f8fafc;
+}
+
+.target-species h2 {
+  color: #0a2540;
+}
+
+.target-species .card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.target-species .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.target-species .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.target-species .info-box {
+  border: 1px solid #e0e0e0;
+}
+
+.target-species ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+
+.target-species ul li {
+  margin-bottom: 0.4rem;
+}
+
+/* ==========================
+   OUR MISSION SECTION
+========================== */
+.our-mission {
+  background-color: #fff;
+}
+
+.our-mission h2 {
+  color: #0a2540;
+}
+
+.our-mission p {
+  line-height: 1.7;
+}
+
+.mission-card {
+  background-color: #f9fafb;
+  transition: all 0.3s ease;
+  border: 1px solid #e0e0e0;
+}
+
+.mission-card:hover {
+  transform: translateY(-5px);
+  background-color: #ffffff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.mission-card .icon i {
+  color: #007bff;
+}
+
+.text-orange {
+  color: #ff6b00;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0a6a7a;
+}
+
+.contact-section {
+  background: linear-gradient(135deg, #05647a, #0b829a);
+  color: white;
+}
+
+.info-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.info-box:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 2rem;
+  color: #f26a21;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.btn-orange {
+  background-color: #f26a21;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.btn-orange:hover {
+  background-color: #d85d1f;
+}
+
+@media (max-width: 768px) {
+  .info-box {
+    margin-bottom: 15px;
+  }
+}
+
+.footer {
+  background-color: #0a6a7a;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.text-orange {
+  color: #f26a21;
+}
+
+.footer-links a {
+  color: #d1e7e7;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 6px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #f26a21;
+}
+
+.footer-contact li {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: #f26a21;
+  color: #fff;
+}
+
+hr {
+  opacity: 0.2;
+}
